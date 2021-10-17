@@ -22,7 +22,7 @@ public class HadoopConnect {
         IOUtils.copyBytes(input, output, conf);
         IOUtils.closeStream(input);
         IOUtils.closeStream(output);
-
+        System.out.println("yes");
     }
 
 }
