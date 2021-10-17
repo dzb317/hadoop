@@ -12,7 +12,7 @@ import org.apache.hadoop.io.IOUtils;
  * 2.执行相关对象
  *
  * */
-public abstract class HadoopConnect {
+public class HadoopConnect {
 
     public static void main(String[] args) throws Exception{
         Configuration conf =new Configuration();
